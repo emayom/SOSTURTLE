@@ -9,6 +9,11 @@ button {
     background: #23CF5F;
     border-radius: 4px;
     font-size: 1.5vw;
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
 }
 
 /* main */
@@ -45,7 +50,7 @@ header {
     align-items: center;
 }
 
-header .logo {
+header .logo a {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -116,19 +121,25 @@ header .icons img {
 }
 
 .title button {
-    font-size: 1.5vw;
+    width: 24vw;
+    font-size: 1.15vw;
     color: #FFFFFF;
+    font-family: Montserrat-bold;
     background: none;
     padding: 0;
     border: 0;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+}
+
+button:active {
+    outline: none;
 }
 
 .title button img {
     width: 3vw;
-    margin-right: 16px;
 }
 
 /*  */
@@ -157,7 +168,6 @@ header .icons img {
 .donate button {
     width: 15.6%;
     height: 5.2vw;
-    cursor: pointer;
     background: #23CF5F;
     border: 0;
     border-radius: 4px;
