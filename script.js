@@ -10,19 +10,16 @@ function handleMainImg(event) {
     console.log(mainImg.src);
 
     if(target === "page-1") {
-        mainImg.src = "/img/main_img.png"
+        mainImg.src = "https://emayom.github.io/SOSTURTLE/img/main_img.png"
     } else if(target === "page-2") {
         
         console.log("p2");
-        mainImg.src = "/img/main_img2.jpg"
+        mainImg.src = "https://emayom.github.io/SOSTURTLE/img/main_img2.jpg"
     } else if (target === "page-3"){
         console.log("p3");
-        mainImg.src = "/img/main_img3.jpeg"
-
+        mainImg.src = "https://emayom.github.io/SOSTURTLE/img/main_img3.jpeg"
     }
 }
-
-// img/main_img.png
 
 page1.addEventListener("click", handleMainImg);
 page2.addEventListener("click", handleMainImg);
