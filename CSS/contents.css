@@ -224,11 +224,6 @@ footer {
     align-items: center;
 }
 
-footer div {
-    color: #61788E;
-    font-family: Montserrat-Medium;
-}
-
 footer p {
     font-family: Montserrat-Medium;
     font-size: 1.15vw;
@@ -245,8 +240,8 @@ footer span {
 }
 
 footer button {
-    width: 9.4vw;
-    font-family: Helvetica;
+    width: 12vw;
+    height: 4vw;
     font-size: 0.73vw;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -265,13 +260,32 @@ footer .subscribe {
     margin-bottom: 19vw;
 }
 
-footer .subscribe div {
-    width: 28vw;
-    height: 9.4vw;
+footer .subscribe {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: 0;
+    font-size: 0.73vw;
+    padding: 5px;
+}
+
+
+footer .subscribe input {
+    box-sizing: border-box;
+    width: 27vw;
+    border: none;
+    color: #3E4C5B;
+    font-size: 0.7vw;
+    font-family: Montserrat-Medium;
+    padding-left: 50px;
+    outline: none;
+    background: transparent;
+}
+
+footer .subscribe input::placeholder {
+    color: #61788E;
+    font-size: 0.7vw;
+    font-family: Montserrat-Medium;
 }
 
 

@@ -45,7 +45,7 @@
             <h3>Welcome</h3>
             <h1>Help Us Save<br>
                 A Billion Baby Turtles!</h1>
-            <button type="button">
+            <button id="youtube" type="button">
                 <img src="img/play-circle.png"alt="">
                 HOW WE USE YOUR DONATION
             </button>
@@ -63,21 +63,26 @@
                     </a>
             </div>
             <div class="donate">
-                <span>Donate to save baby Turtles</span>
+                <div>Donate to save baby Turtles</div>
                 <div class="amount">
                     <span>AMOUNT</span>
                     <select name="amount" id="">
-                        <option value="$20">$20</option>
-                        
+                        <option selected value="$20">$20</option>
+                        <option value="$10">$10</option>
+                        <option value="$5">$5</option>
+                        <option value="$1">$1</option>
                     </select>
                 </div>
                 <div class="period">
                     <span>PERIOD</span>
                     <select name="period" id="">
-                        <option value="Monthly">Monthly</option>   
+                        <option value="Annually">Annually</option>
+                        <option selected value="Monthly">Monthly</option>
+                        <option value="Weekly">Weekly</option>
+                        <option value="Daily">Daily</option>   
                     </select>
                 </div>
-                <button type="button">DONATION</button>
+                <button type="submit">DONATION</button>
             </div>
             </section>
         </main>
@@ -196,11 +201,11 @@
                     <span>and ways to help save turtles! </span>
                 </p>
                 <div class="subscribe">
-                    <div>
-                        Enter your email address
-                    </div>
+                    <form action="">
+                        <input type="text" placeholder="Enter your email address">
+                    </form>
                     <button type="button">SUBSCRIBE</button>
-                </div>
+                    </div>
                 <div class="footer-social">
                     <p>
                         <span>Created by Geovani Almeida CC 2018,</span>

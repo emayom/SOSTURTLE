@@ -7,16 +7,11 @@ const page3 = document.getElementById("page-3");
 function handleMainImg(event) {
     const target = event.srcElement.id;
 
-    console.log(mainImg.src);
-
     if(target === "page-1") {
         mainImg.src = "https://emayom.github.io/SOSTURTLE/img/main_img.png"
     } else if(target === "page-2") {
-        
-        console.log("p2");
         mainImg.src = "https://emayom.github.io/SOSTURTLE/img/main_img2.jpg"
     } else if (target === "page-3"){
-        console.log("p3");
         mainImg.src = "https://emayom.github.io/SOSTURTLE/img/main_img3.jpeg"
     }
 }

@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
 
+
 button {
     width: 1.6vw;
     border: 0;
@@ -46,6 +47,19 @@ main .main-img {
 .main-img #main {
     position: absolute;
     z-index: -999;
+}
+
+@keyframes clickme {
+    from {
+        transform: scale(98%);
+    }
+    to {
+        transform: scale(100%);
+    }
+}
+
+main #youtube:hover {
+    animation: clickme 1s infinite;
 }
 
 
@@ -174,35 +188,68 @@ button:active {
     background-color: #23CF5F;
 }
 
-/*  */
+/* donation */
 
 .donate {
     width: 78vw;
     height: 6.3vw;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
+    font-size: 1.15vw;
     font-family: Montserrat-Medium;
     background: #fff;
     border-radius: 0.2vw;
+    box-sizing: border-box;
+}
+
+.donate div {
+    width: 26vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: #3E4C5B;
+    letter-spacing: 0;
+    line-height: 200%;
+    border-right: 1px solid #DFE4E8;
 }
 
 .donate span {
-    font-size: 1.15vw;
-    color: #3E4C5B;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 200%;
+    display: block;
+    color: #9AA8B6;
+    font-size: 0.2vw;
+    line-height: 220%;
 }
 
-
 .donate button {
-    width: 15.6%;
-    height: 5.2vw;
-    background: #23CF5F;
+    width: 18vw;
+    height: 5.5vw;
+    font-size: 1.15vw;
+    font-family: Montserrat-bold;
+    background: #0cdd55;
     border: 0;
     border-radius: 0.2vw;
+}
+
+.donate select {
+    appearance: none;
+    border: none;
+    color: #3E4C5B;
+    font-family: Montserrat-Medium;
+}
+
+.donate .amount {
+    display: flex;
+    flex-direction: column;
+    width: 16vw;
+}
+
+.donate .period {
+    display: flex;
+    flex-direction: column;
+    width: 19.7vw;
+    border: 0;
 }
 
 /* bottom */
