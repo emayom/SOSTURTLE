@@ -17,7 +17,7 @@ function handleMainImg(event) {
         mainImg.src = "/img/main_img2.jpg"
     } else if (target === "page-3"){
         console.log("p3");
-        mainImg.src = "/img/main_img5.jpeg"
+        mainImg.src = "/img/main_img3.jpeg"
 
     }
 }
