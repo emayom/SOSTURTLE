@@ -134,7 +134,7 @@
     width: 19vw;
     height: 19vw;
     border: 3px solid #23CF5F;
-    border-radius: 4px;
+    border-radius: 0.2vw;
     letter-spacing: 0;
 }
 
@@ -179,7 +179,7 @@
     width: 8.333vw;
     height: 3.9vw;
     font-size: 0.73vw;
-    border-radius: 4px;
+    border-radius: 0.2vw;
     font-family: Montserrat-bold;
     margin-top: 6.8vw;
     margin-left: 26.3vw;
@@ -259,7 +259,7 @@ footer .subscribe {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 4px;
+    border-radius: 0.2vw;
     background-color: #F9FCFF;
     padding: 5px;
     margin-bottom: 19vw;
