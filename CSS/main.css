@@ -10,12 +10,14 @@ button {
     border-radius: 0.2vw;
     font-size: 1.5vw;
     cursor: pointer;
+    transform: scale(90%);
 }
 
 a {
     cursor: pointer;
     color: #fff;
 }
+
 
 a:visited {
     color: #fff;
@@ -38,6 +40,7 @@ main .main-img {
 
 .main-img img {
     width: 100vw;
+    height: 57vw;
 }
 
 .main-img #main {
@@ -78,6 +81,10 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     height: fit-content;
+}
+
+header nav li:hover {
+    color: #00f455;
 }
 
 header nav li {
@@ -145,6 +152,26 @@ button:active {
 
 .title button img {
     width: 3vw;
+}
+
+.title .pagination {
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.title .pagination button{
+    box-sizing: border-box;
+    width: 1vw;
+    height: 1vw;
+    background-color: #fff;
+    border-radius: .5vw;
+    margin: 1vw;
+}
+
+.title .pagination button:active {
+    background-color: #23CF5F;
 }
 
 /*  */
