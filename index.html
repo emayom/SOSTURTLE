@@ -7,6 +7,8 @@
     <title>SOSTURTLE</title>
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/contents.css">
+    
 </head>
 <body>
     <main>
@@ -66,7 +68,7 @@
                 <div>Donate to save baby Turtles</div>
                 <div class="amount">
                     <span>AMOUNT</span>
-                    <select name="amount" id="">
+                    <select name="amount" id="amount">
                         <option selected value="$20">$20</option>
                         <option value="$10">$10</option>
                         <option value="$5">$5</option>
@@ -75,14 +77,19 @@
                 </div>
                 <div class="period">
                     <span>PERIOD</span>
-                    <select name="period" id="">
+                    <select name="period" id="period">
                         <option value="Annually">Annually</option>
                         <option selected value="Monthly">Monthly</option>
                         <option value="Weekly">Weekly</option>
                         <option value="Daily">Daily</option>   
                     </select>
                 </div>
-                <button type="submit">DONATION</button>
+                <button id="donate-btn"type="submit">DONATION</button>
+                <div class="hidden" id="thanks">
+                    <h3>Thanks for your support! 👍🏻 </h3>
+                    <span id="value"></span>
+                    <button id="modal-close" type="button">close</button>
+                </div>
             </div>
             </section>
         </main>
@@ -188,6 +195,16 @@
                         </p>
                         <a class="hightlight-txt">CONTINUE READING</a>
                     </div>
+                </div>
+                <div class="news-3">
+                    <span class="small-heading">VOLUNTARY POSITIONS</span>
+                    <h3>Marine Debris</h3>
+                    <span class="date">On February 10, 2018 / By Turtle Save</span>
+                    <img src="img/news2-img.png" alt="">
+                    <p>
+                        Plastic, oh so much plastic. While it is unclear how the presence of so much plastic in the environment is directly affecting turtle populations, it is quite staggering to behold the amount of plastic in the area…
+                    </p>
+                    <a class="hightlight-txt">CONTINUE READING</a>
                 </div>
                 <button type="button">MORE NEWS</button>
             </div>

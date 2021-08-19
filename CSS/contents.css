@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 1vw;
+    /* font-size: 1vw; */
     font-family: Montserrat-Medium;
     letter-spacing: 0;
 }
@@ -14,15 +14,15 @@
 
 .contents .small-heading {
     font-family: Montserrat-Bold;
-    font-size: 0.7vw;
-    color: #3E4C5B;
+    /* font-size: 0.7vw; */
+    color: var(--darkgray-color);
 }
 
 .contents h3 {
     width: fit-content;
-    color: #3E4C5B;
+    color: var(--darkgray-color);
     font-family:  Montserrat-bold;
-    font-size: 2.6vw;
+    /* font-size: 2.6vw; */
     margin: 3vw 0 2.5vw;
     line-height: 122%;
 }
@@ -30,8 +30,8 @@
 .contents p {
     width: 24.5vw;
     margin-bottom: 2vw;
-    color: #9AA8B6;
-    font-size: 1.15vw;
+    color: var(--gray-color);
+    /* font-size: 1.15vw; */
     line-height: 155%;
     word-break: keep-all;
 }
@@ -45,8 +45,8 @@
 .contents .hightlight-txt{
     min-width: 145px;
     margin-right: 1.8vw;
-    color: #23CF5F;
-    font-size: 0.7vw;
+    color: var(--main-color);
+    /* font-size: 0.7vw; */
     font-family:  Montserrat-bold;
 }
 
@@ -107,16 +107,16 @@
 }
 
 .hightlight-numbers .h-contents #h-cnt p {
-    font-size: 0.7vw;
+    /* font-size: 0.7vw; */
     font-family: Montserrat-bold;
-    color: #3E4C5B
+    color: var(--darkgray-color);
 }
 
 .hightlight-numbers  .h-contents #h-cnt span {
     display: block;
     margin-bottom: 1.8vw;
-    color: #23CF5F;
-    font-size: 4vw;
+    color: var(--main-color);
+    /* font-size: 4vw; */
     font-family: Montserrat-Light;
 
 }
@@ -133,15 +133,15 @@
     align-items: center;
     width: 19vw;
     height: 19vw;
-    border: 3px solid #23CF5F;
+    border: 3px solid var(--main-color);
     border-radius: 0.2vw;
     letter-spacing: 0;
 }
 
 .hightlight-numbers #h-box span {
     font-family: Montserrat-Light;
-    font-size: 4vw;
-    color: #23CF5F;
+    /* font-size: 4vw; */
+    color: var(--main-color);
     margin-bottom: 1.8vw;
     
 }
@@ -178,7 +178,7 @@
 .latest-news button {
     width: 8.333vw;
     height: 3.9vw;
-    font-size: 0.73vw;
+    /* font-size: 0.73vw; */
     border-radius: 0.2vw;
     font-family: Montserrat-bold;
     margin-top: 6.8vw;
@@ -194,7 +194,7 @@
 
 .news .date {
     font-family: Montserrat-Medium;
-    font-size: 0.7vw;
+    /* font-size: 0.7vw; */
     color: #9AA8B6;
 }
 
@@ -226,8 +226,8 @@ footer {
 
 footer p {
     font-family: Montserrat-Medium;
-    font-size: 1.15vw;
-    color: #3E4C5B;
+    /* font-size: 1.15vw; */
+    color: var(--darkgray-color);
     letter-spacing: 0;
     text-align: center;
     line-height: 173%;
@@ -235,14 +235,14 @@ footer p {
 }
 
 footer span {
-    color: #23CF5F;
+    color: var(--main-color);
     font-family: Montserrat-bold;
 }
 
 footer button {
     width: 12vw;
     height: 4vw;
-    font-size: 0.73vw;
+    /* font-size: 0.73vw; */
     color: #FFFFFF;
     letter-spacing: 0;
     line-height: 364%;
@@ -265,7 +265,7 @@ footer .subscribe {
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    font-size: 0.73vw;
+    /* font-size: 0.73vw; */
     padding: 5px;
 }
 
@@ -274,8 +274,8 @@ footer .subscribe input {
     box-sizing: border-box;
     width: 27vw;
     border: none;
-    color: #3E4C5B;
-    font-size: 0.7vw;
+    color: var(--darkgray-color);
+    /* font-size: 0.7vw; */
     font-family: Montserrat-Medium;
     padding-left: 50px;
     outline: none;
@@ -284,7 +284,7 @@ footer .subscribe input {
 
 footer .subscribe input::placeholder {
     color: #61788E;
-    font-size: 0.7vw;
+    /* font-size: 0.7vw; */
     font-family: Montserrat-Medium;
 }
 
@@ -303,4 +303,3 @@ footer .subscribe input::placeholder {
     height: 1.4vw;
     margin-left: 1.95vw;
 }
-
