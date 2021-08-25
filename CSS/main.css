@@ -307,14 +307,15 @@ button:active {
     left: 0;
     width: 100vw;
     height: 100vw;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 #thanks {
     width: 450px;
     height: 300px;
     /* opacity: .9; */
-    border-radius: 3%;
+    border: 5vw none black;
+    border-radius: 2vw;
     font-family: Montserrat-bold;
     background-color: var(--main-font-color);
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 
@@ -334,11 +335,17 @@ button:active {
     border-bottom: 1px solid var(--gray-color);
 }
 
-#thanks button {
-    width: 6vw;
+#thanks-bg button {
+    z-index: 999;
+    width: 3vw;
     height: 3vw;
+    border-radius: 100%;
     font-size: 1rem;
-
+    position: fixed;
+    top: 30%;
+    right: 30%;
+    transform: translateX(25%) translateY(-25%);
+    background-color: var(--gray-color);
 }
 
 #thanks span {

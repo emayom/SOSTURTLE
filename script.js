@@ -85,5 +85,16 @@ page3.addEventListener("click", handleMainImg);
 
 donate.addEventListener("click", openModal);
 modal_close.addEventListener("click", closeModal);
-
 email_submit.addEventListener("click", handleEmailSubmit);
+
+window.onclick = function(event) {
+    if(event.target == modal) {
+        closeModal();
+    }
+}
+
+// window.addEventListener("click", function(event) {
+//     if(event.target == modal){
+//         closeModal();
+//     }
+// });
